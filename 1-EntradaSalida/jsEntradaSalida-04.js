@@ -4,11 +4,8 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	// variable nombre con el let//
 let nombre;
-nombre = prompt ("Ingrese su nombre")
- //caja de texto, el valor de la caja de texto// 
- document.getElementById ("txtNombre").value = nombre
-
+nombre=prompt("ingrese su nombre");
+document.getElementById("txtNombre").value=nombre
 }
 
